@@ -13,6 +13,7 @@
 		0FCE7C39295ADE3200815809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE7C37295ADE3200815809 /* Main.storyboard */; };
 		0FCE7C3B295ADE3300815809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE7C3A295ADE3300815809 /* Assets.xcassets */; };
 		0FCE7C3E295ADE3300815809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE7C3C295ADE3300815809 /* LaunchScreen.storyboard */; };
+		0FCE7C46295AFCAE00815809 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE7C45295AFCAE00815809 /* SecondViewController.swift */; };
 		188E0A8BFA46A16C9A7B7688 /* Pods_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C231847E2DB3463BFCA8CA4 /* Pods_sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		0FCE7C3A295ADE3300815809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FCE7C3D295ADE3300815809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FCE7C3F295ADE3300815809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FCE7C45295AFCAE00815809 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5C231847E2DB3463BFCA8CA4 /* Pods_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5723C2F7A6047D3804EFD7 /* Pods-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.debug.xcconfig"; path = "Target Support Files/Pods-sample/Pods-sample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				0FCE7C3A295ADE3300815809 /* Assets.xcassets */,
 				0FCE7C3C295ADE3300815809 /* LaunchScreen.storyboard */,
 				0FCE7C3F295ADE3300815809 /* Info.plist */,
+				0FCE7C45295AFCAE00815809 /* SecondViewController.swift */,
 			);
 			path = sample;
 			sourceTree = "<group>";
@@ -88,7 +91,6 @@
 				AF5723C2F7A6047D3804EFD7 /* Pods-sample.debug.xcconfig */,
 				0A55C46733D2865004F39BA8 /* Pods-sample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -189,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FCE7C46295AFCAE00815809 /* SecondViewController.swift in Sources */,
 				0FCE7C36295ADE3200815809 /* ViewController.swift in Sources */,
 				0FCE7C32295ADE3200815809 /* AppDelegate.swift in Sources */,
 				0FCE7C34295ADE3200815809 /* SceneDelegate.swift in Sources */,
